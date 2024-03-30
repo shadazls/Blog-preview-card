@@ -1,0 +1,87 @@
+body {
+    background-color: hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Figtree', sans-serif;
+    margin: 0;
+}
+
+p, h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    height: 54.37vh;
+    width: 26.67vw;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 10px 10px 0px hsl(0, 0%, 7%);
+    border-radius: 20px;
+    border: 2px solid #111111;
+    box-sizing: border-box;
+    padding: 1.71%;
+    /* margin-bottom: 1.71%; */
+}
+
+#main-container-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+#learning-label {
+    background-color: hsl(47, 88%, 63%);
+    width: 13%;
+    padding: 5px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 1.5%;
+}
+
+#publication-date {
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 3%;
+}
+
+#card-title {
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+#card-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 3%;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+#profile-picutre {
+    max-width: 65px;
+    margin-right: 2%;
+}
+
+#additional-text {
+    font-weight: 800;
+    font-size: 14px;
+}
